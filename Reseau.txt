@@ -1,3 +1,20 @@
 Commande :
 
-Ip config
+
+	Windows:
+
+Ip config : est une commande informatique utilisée pour afficher la configuration réseau d'un ordinateur.
+Ip config /all : est une commande informatique qui affiche de manière détaillée la configuration réseau complète d'un ordinateur.
+ipconfig /release : est une commande permettant de libérer la configuration IP d'un ordinateur, rendant ainsi l'adresse IP disponible pour d'autres utilisations.
+ipconfig /renew : est une commande permettant de renouveler la configuration IP d'un ordinateur, demandant ainsi une nouvelle adresse IP au serveur DHCP.
+netsh interface show interface : est une commande utilisée pour afficher la liste des interfaces réseau disponibles sur un système.
+mkdir : Pour créer des répertoires dans le shell.
+	Linux :
+
+su - root : Pour passer de l’utilisateur courant à l’utilisateur root (administrateur).
+ip addr show : va vous montrer les cartes de votre serveur ainsi que les protocoles configurés.
+ip link show : vous montrera les informations niveau 2 de votre carte réseau. (ex : la Mac Address).
+ip route show : vous montrera les routes configurées sur le serveur.
+mkdir : Pour créer des répertoires dans le shell.
+
+
