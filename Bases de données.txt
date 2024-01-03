@@ -1,0 +1,26 @@
+Commande sql Base de donnée :
+
+CREATE DATABASE <nom_base_de_données> : permet tout simplement de créer une database avec la possibilité de le nommé.
+CREATE TABLE <nom_table> (<nom_colonne> <type_colonne> ,… ) :  est une commande permettant de créer une nouvelle table dans une base de données. Elle spécifie les colonnes, les types de données et d'autres contraintes pour définir la structure de la table.
+	char : 1 seul caractère
+	varchar(longueur) : chaîne de caractères (nombre maximal de caractères).
+	numeric(longueur) : entier (nombre maximal de chiffres).
+	decimal(précision,échelle) : nombre réel avec :
+		o précision : nombre maximal de chiffres (ceux avant la virgule + ceux après la virgule).
+		o échelle : nombre de chiffres après la virgule.
+
+	NOT NULL : obligatoire.
+	PRIMARY KEY : identifiant principal.
+	UNIQUE : valeur unique (appelé aussi clé secondaire).
+	FOREIGN KEY  : clé étrangère.
+	CHECK :  contraintes additionnelles.
+
+DROP TABLE <nom_table> : permet de supprimer la structure d'une table.
+TRUNCATE TABLE <nom_table> : permet de supprimer toutes les lignes d’une table (en gardant la structure de la table).
+
+INSERT INTO <nom_table> [ ( <nom_colonne>, … ) ] : est une commande utilisée pour insérer de nouvelles lignes de données dans une table existante.
+VALUES ( <valeur>, … ) : est utilisé dans le contexte de la commande "INSERT INTO" pour spécifier les valeurs de données à insérer dans les colonnes correspondantes d'une table.
+DELETE
+[ FROM ] <nom_table>
+[ WHERE <conditions> ] : permet de supprimer des valeurs d'une table ( si on utilise pas le where, on supprime toute la table).
+ORDER BY : Trie les lignes à l’affichage
