@@ -1,0 +1,14 @@
+Commandes :
+
+	Linux :
+passwd : change le mot de passe de l'utilisateur courant.
+head et tail : affichent le début et la fin d'un fichier, respectivement. 
+nano : est un éditeur de texte en ligne de commande
+
+	Windows :
+
+dir : permet d’afficher la liste des fichiers et des répertoires dans le répertoire courant.
+	/a : permet d’afficher les fichiers cachés.
+	/p : permet d’interrompre l’affichage lorsque l’écran est plein.
+	/s : permet l’affichage aussi dans les sous-répertoires.
+copy : copie d’un fichier source vers une autre destination ou sous un autre nom. 
